@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.npc_spellclick_spells wordt geschreven
+-- Dumping structure for table world.npc_spellclick_spells
 CREATE TABLE IF NOT EXISTS `npc_spellclick_spells` (
   `npc_entry` int(10) unsigned NOT NULL COMMENT 'reference to creature_template',
   `spell_id` int(10) unsigned NOT NULL COMMENT 'spell which should be casted ',
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `npc_spellclick_spells` (
   PRIMARY KEY (`npc_entry`,`spell_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.npc_spellclick_spells: 839 rows
+-- Dumping data for table world.npc_spellclick_spells: 839 rows
 /*!40000 ALTER TABLE `npc_spellclick_spells` DISABLE KEYS */;
 INSERT IGNORE INTO `npc_spellclick_spells` (`npc_entry`, `spell_id`, `cast_flags`, `user_type`) VALUES
 	(28389, 51592, 1, 0),

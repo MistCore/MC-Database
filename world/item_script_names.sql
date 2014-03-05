@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,14 +10,14 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.item_script_names wordt geschreven
+-- Dumping structure for table world.item_script_names
 CREATE TABLE IF NOT EXISTS `item_script_names` (
   `Id` int(10) unsigned NOT NULL,
   `ScriptName` varchar(64) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- Dumpen data van tabel world.item_script_names: 17 rows
+-- Dumping data for table world.item_script_names: 17 rows
 /*!40000 ALTER TABLE `item_script_names` DISABLE KEYS */;
 INSERT IGNORE INTO `item_script_names` (`Id`, `ScriptName`) VALUES
 	(24538, 'item_only_for_flight'),

@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.gossip_menu_option wordt geschreven
+-- Dumping structure for table world.gossip_menu_option
 CREATE TABLE IF NOT EXISTS `gossip_menu_option` (
   `menu_id` smallint(5) unsigned NOT NULL DEFAULT '0',
   `id` smallint(5) unsigned NOT NULL DEFAULT '0',
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `gossip_menu_option` (
   PRIMARY KEY (`menu_id`,`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.gossip_menu_option: 4.770 rows
+-- Dumping data for table world.gossip_menu_option: 4.770 rows
 /*!40000 ALTER TABLE `gossip_menu_option` DISABLE KEYS */;
 INSERT IGNORE INTO `gossip_menu_option` (`menu_id`, `id`, `option_icon`, `option_text`, `option_id`, `npc_option_npcflag`, `action_menu_id`, `action_poi_id`, `box_coded`, `box_money`, `box_text`) VALUES
 	(0, 0, 0, 'GOSSIP_OPTION_QUESTGIVER', 2, 2, 0, 0, 0, 0, ''),

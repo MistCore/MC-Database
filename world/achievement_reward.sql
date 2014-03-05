@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.achievement_reward wordt geschreven
+-- Dumping structure for table world.achievement_reward
 CREATE TABLE IF NOT EXISTS `achievement_reward` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `title_A` mediumint(8) unsigned NOT NULL DEFAULT '0',
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `achievement_reward` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Loot System';
 
--- Dumpen data van tabel world.achievement_reward: 181 rows
+-- Dumping data for table world.achievement_reward: 181 rows
 /*!40000 ALTER TABLE `achievement_reward` DISABLE KEYS */;
 INSERT IGNORE INTO `achievement_reward` (`entry`, `title_A`, `title_H`, `item`, `sender`, `subject`, `text`) VALUES
 	(45, 0, 0, 43348, 28070, 'You\'ve Been Around!', 'Well, look at ye!$B$BAnd I thought I had seen some things in this icy place! It seems obvious to this dwarf that you have the fire of the explorer burning in your eyes.$B$BWear this tabard with pride. That way your friends will know who to ask for directions when the time comes!$B$BKeep on the move!$B$BBrann Bronzebeard'),

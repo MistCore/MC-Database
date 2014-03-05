@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.conditions wordt geschreven
+-- Dumping structure for table world.conditions
 CREATE TABLE IF NOT EXISTS `conditions` (
   `SourceTypeOrReferenceId` mediumint(8) NOT NULL DEFAULT '0',
   `SourceGroup` mediumint(8) unsigned NOT NULL DEFAULT '0',
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `conditions` (
   PRIMARY KEY (`SourceTypeOrReferenceId`,`SourceGroup`,`SourceEntry`,`SourceId`,`ElseGroup`,`ConditionTypeOrReference`,`ConditionTarget`,`ConditionValue1`,`ConditionValue2`,`ConditionValue3`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Condition System';
 
--- Dumpen data van tabel world.conditions: 8.504 rows
+-- Dumping data for table world.conditions: 8.504 rows
 /*!40000 ALTER TABLE `conditions` DISABLE KEYS */;
 INSERT IGNORE INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
 	(1, 3, 2794, 0, 0, 6, 0, 469, 0, 0, 0, 0, '', NULL),

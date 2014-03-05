@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,14 +10,14 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.spell_forbidden wordt geschreven
+-- Dumping structure for table world.spell_forbidden
 CREATE TABLE IF NOT EXISTS `spell_forbidden` (
   `spell_id` int(11) unsigned NOT NULL,
   `comment` blob,
   PRIMARY KEY (`spell_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumpen data van tabel world.spell_forbidden: ~96 rows (ongeveer)
+-- Dumping data for table world.spell_forbidden: ~96 rows (approximately)
 /*!40000 ALTER TABLE `spell_forbidden` DISABLE KEYS */;
 INSERT IGNORE INTO `spell_forbidden` (`spell_id`, `comment`) VALUES
 	(5, _binary 0x546F7563686572206D6F7274656C),

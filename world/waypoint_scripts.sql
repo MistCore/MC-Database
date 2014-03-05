@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.waypoint_scripts wordt geschreven
+-- Dumping structure for table world.waypoint_scripts
 CREATE TABLE IF NOT EXISTS `waypoint_scripts` (
   `id` int(11) unsigned NOT NULL DEFAULT '0',
   `delay` int(11) unsigned NOT NULL DEFAULT '0',
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `waypoint_scripts` (
   PRIMARY KEY (`guid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.waypoint_scripts: 730 rows
+-- Dumping data for table world.waypoint_scripts: 730 rows
 /*!40000 ALTER TABLE `waypoint_scripts` DISABLE KEYS */;
 INSERT IGNORE INTO `waypoint_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `dataint`, `x`, `y`, `z`, `o`, `guid`) VALUES
 	(1, 0, 2, 83, 11, 0, 0, 0, 0, 0, 1),

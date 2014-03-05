@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.guild_rewards wordt geschreven
+-- Dumping structure for table world.guild_rewards
 CREATE TABLE IF NOT EXISTS `guild_rewards` (
   `entry` int(10) unsigned NOT NULL DEFAULT '0',
   `standing` tinyint(3) unsigned DEFAULT '0',
@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `guild_rewards` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.guild_rewards: 42 rows
+-- Dumping data for table world.guild_rewards: 42 rows
 /*!40000 ALTER TABLE `guild_rewards` DISABLE KEYS */;
 INSERT IGNORE INTO `guild_rewards` (`entry`, `standing`, `racemask`, `price`, `achievement`) VALUES
 	(63138, 4, 0, 3000000, 5892),

@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.warden_data_result wordt geschreven
+-- Dumping structure for table world.warden_data_result
 CREATE TABLE IF NOT EXISTS `warden_data_result` (
   `id` int(4) NOT NULL AUTO_INCREMENT,
   `check` int(3) DEFAULT NULL,
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `warden_data_result` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=803 DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.warden_data_result: ~802 rows (ongeveer)
+-- Dumping data for table world.warden_data_result: ~671 rows (approximately)
 /*!40000 ALTER TABLE `warden_data_result` DISABLE KEYS */;
 INSERT IGNORE INTO `warden_data_result` (`id`, `check`, `data`, `str`, `address`, `length`, `result`, `comment`) VALUES
 	(1, 178, '07F223143C69271AA2A851FECF6DC883A9D3A7DBA6FE26CC', '', 710730, 23, '', NULL),

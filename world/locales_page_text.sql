@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.locales_page_text wordt geschreven
+-- Dumping structure for table world.locales_page_text
 CREATE TABLE IF NOT EXISTS `locales_page_text` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `Text_loc1` longtext,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `locales_page_text` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.locales_page_text: 1.849 rows
+-- Dumping data for table world.locales_page_text: 1.849 rows
 /*!40000 ALTER TABLE `locales_page_text` DISABLE KEYS */;
 INSERT IGNORE INTO `locales_page_text` (`entry`, `Text_loc1`, `Text_loc2`, `Text_loc3`, `Text_loc4`, `Text_loc5`, `Text_loc6`, `Text_loc7`, `Text_loc8`, `Text_loc9`, `Text_loc10`) VALUES
 	(15, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Здравствуй, Морган!\r\n\r\nДела в Златоземье идут бойко, так бойко, что у меня не было времени отправить тебе товар! \r\n\r\nЯ нанял человека, который принесет эту записку, доставить тебе пачку больших восковых свечей (тех, что кобольды обычно носят на голове). \r\n\r\nБудь добр, отблагодари этого человека и заплати ему как следует.', NULL, NULL),

@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.spell_target_position wordt geschreven
+-- Dumping structure for table world.spell_target_position
 CREATE TABLE IF NOT EXISTS `spell_target_position` (
   `id` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Identifier',
   `target_map` smallint(5) unsigned NOT NULL DEFAULT '0',
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `spell_target_position` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Spell System';
 
--- Dumpen data van tabel world.spell_target_position: 762 rows
+-- Dumping data for table world.spell_target_position: 762 rows
 /*!40000 ALTER TABLE `spell_target_position` DISABLE KEYS */;
 INSERT IGNORE INTO `spell_target_position` (`id`, `target_map`, `target_position_x`, `target_position_y`, `target_position_z`, `target_orientation`) VALUES
 	(442, 129, 2592.55, 1107.5, 51.29, 4.74),

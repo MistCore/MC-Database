@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.lfg_entrances wordt geschreven
+-- Dumping structure for table world.lfg_entrances
 CREATE TABLE IF NOT EXISTS `lfg_entrances` (
   `dungeonId` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Unique id from LFGDungeons.dbc',
   `name` varchar(255) DEFAULT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `lfg_entrances` (
   PRIMARY KEY (`dungeonId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumpen data van tabel world.lfg_entrances: ~18 rows (ongeveer)
+-- Dumping data for table world.lfg_entrances: ~18 rows (approximately)
 /*!40000 ALTER TABLE `lfg_entrances` DISABLE KEYS */;
 INSERT IGNORE INTO `lfg_entrances` (`dungeonId`, `name`, `position_x`, `position_y`, `position_z`, `orientation`) VALUES
 	(18, 'Scarlet Monastery - Graveyard', 1688.99, 1053.48, 18.6775, 0.00117),

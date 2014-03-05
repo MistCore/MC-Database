@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.achievement_dbc wordt geschreven
+-- Dumping structure for table world.achievement_dbc
 CREATE TABLE IF NOT EXISTS `achievement_dbc` (
   `ID` int(10) unsigned NOT NULL,
   `requiredFaction` int(11) NOT NULL DEFAULT '-1',
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `achievement_dbc` (
   PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.achievement_dbc: 416 rows
+-- Dumping data for table world.achievement_dbc: 416 rows
 /*!40000 ALTER TABLE `achievement_dbc` DISABLE KEYS */;
 INSERT IGNORE INTO `achievement_dbc` (`ID`, `requiredFaction`, `mapID`, `points`, `flags`, `count`, `refAchievement`, `comment`) VALUES
 	(3376, -1, -1, 0, 2, 1, 0, NULL),

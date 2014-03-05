@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,14 +10,14 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.player_factionchange_spells wordt geschreven
+-- Dumping structure for table world.player_factionchange_spells
 CREATE TABLE IF NOT EXISTS `player_factionchange_spells` (
   `alliance_id` int(10) unsigned NOT NULL,
   `horde_id` int(10) unsigned NOT NULL,
   PRIMARY KEY (`alliance_id`,`horde_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.player_factionchange_spells: 120 rows
+-- Dumping data for table world.player_factionchange_spells: 120 rows
 /*!40000 ALTER TABLE `player_factionchange_spells` DISABLE KEYS */;
 INSERT IGNORE INTO `player_factionchange_spells` (`alliance_id`, `horde_id`) VALUES
 	(458, 6654),

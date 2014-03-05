@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.page_text wordt geschreven
+-- Dumping structure for table world.page_text
 CREATE TABLE IF NOT EXISTS `page_text` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `text` longtext NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `page_text` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Item System';
 
--- Dumpen data van tabel world.page_text: 2.204 rows
+-- Dumping data for table world.page_text: 2.204 rows
 /*!40000 ALTER TABLE `page_text` DISABLE KEYS */;
 INSERT IGNORE INTO `page_text` (`entry`, `text`, `next_page`, `WDBVerified`) VALUES
 	(15, 'Hello Morgan,$B$BBusiness in Goldshire is brisk, so brisk that I haven\'t had time to send you any shipments!  $B$BI commissioned the person bearing this note to bring you a package of large wax candles (you know, the ones the Kobolds like to wear on their heads?). $B$BPlease give this person our thanks, and fair payment.', 0, 12340),

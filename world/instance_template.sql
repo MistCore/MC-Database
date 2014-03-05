@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.instance_template wordt geschreven
+-- Dumping structure for table world.instance_template
 CREATE TABLE IF NOT EXISTS `instance_template` (
   `map` smallint(5) unsigned NOT NULL,
   `parent` smallint(5) unsigned NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `instance_template` (
   PRIMARY KEY (`map`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.instance_template: 113 rows
+-- Dumping data for table world.instance_template: 113 rows
 /*!40000 ALTER TABLE `instance_template` DISABLE KEYS */;
 INSERT IGNORE INTO `instance_template` (`map`, `parent`, `script`, `allowMount`) VALUES
 	(33, 0, 'instance_shadowfang_keep', 0),

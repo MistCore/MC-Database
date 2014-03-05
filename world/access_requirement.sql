@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.access_requirement wordt geschreven
+-- Dumping structure for table world.access_requirement
 CREATE TABLE IF NOT EXISTS `access_requirement` (
   `mapId` mediumint(8) unsigned NOT NULL,
   `difficulty` tinyint(3) unsigned NOT NULL DEFAULT '0',
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `access_requirement` (
   PRIMARY KEY (`mapId`,`difficulty`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Access Requirements';
 
--- Dumpen data van tabel world.access_requirement: 167 rows
+-- Dumping data for table world.access_requirement: 167 rows
 /*!40000 ALTER TABLE `access_requirement` DISABLE KEYS */;
 INSERT IGNORE INTO `access_requirement` (`mapId`, `difficulty`, `level_min`, `level_max`, `item`, `item2`, `quest_done_A`, `quest_done_H`, `completed_achievement`, `quest_failed_text`, `comment`) VALUES
 	(33, 1, 85, 0, 0, 0, 0, 0, 0, NULL, 'Shadowfang Keep Entrance (Heroic)'),

@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.pet_levelstats wordt geschreven
+-- Dumping structure for table world.pet_levelstats
 CREATE TABLE IF NOT EXISTS `pet_levelstats` (
   `creature_entry` mediumint(8) unsigned NOT NULL,
   `level` tinyint(3) unsigned NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `pet_levelstats` (
   PRIMARY KEY (`creature_entry`,`level`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 PACK_KEYS=0 COMMENT='Stores pet levels stats.';
 
--- Dumpen data van tabel world.pet_levelstats: 3.745 rows
+-- Dumping data for table world.pet_levelstats: 3.745 rows
 /*!40000 ALTER TABLE `pet_levelstats` DISABLE KEYS */;
 INSERT IGNORE INTO `pet_levelstats` (`creature_entry`, `level`, `hp`, `mana`, `armor`, `str`, `agi`, `sta`, `inte`, `spi`) VALUES
 	(1, 11, 132, 1, 220, 28, 25, 38, 6, 32),

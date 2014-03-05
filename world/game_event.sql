@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.game_event wordt geschreven
+-- Dumping structure for table world.game_event
 CREATE TABLE IF NOT EXISTS `game_event` (
   `eventEntry` tinyint(3) unsigned NOT NULL COMMENT 'Entry of the game event',
   `start_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Absolute start date, the event will never start before',
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `game_event` (
   PRIMARY KEY (`eventEntry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.game_event: 70 rows
+-- Dumping data for table world.game_event: 70 rows
 /*!40000 ALTER TABLE `game_event` DISABLE KEYS */;
 INSERT IGNORE INTO `game_event` (`eventEntry`, `start_time`, `end_time`, `occurence`, `length`, `holiday`, `description`, `world_event`) VALUES
 	(1, '2012-06-21 03:01:00', '2020-12-31 09:00:00', 525600, 20160, 341, 'Midsummer Fire Festival', 0),

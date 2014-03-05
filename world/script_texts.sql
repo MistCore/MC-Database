@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.script_texts wordt geschreven
+-- Dumping structure for table world.script_texts
 CREATE TABLE IF NOT EXISTS `script_texts` (
   `npc_entry` mediumint(8) NOT NULL DEFAULT '0' COMMENT 'creature_template entry',
   `entry` mediumint(8) NOT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `script_texts` (
   PRIMARY KEY (`npc_entry`,`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Script Texts';
 
--- Dumpen data van tabel world.script_texts: 2.715 rows
+-- Dumping data for table world.script_texts: 2.715 rows
 /*!40000 ALTER TABLE `script_texts` DISABLE KEYS */;
 INSERT IGNORE INTO `script_texts` (`npc_entry`, `entry`, `content_default`, `content_loc1`, `content_loc2`, `content_loc3`, `content_loc4`, `content_loc5`, `content_loc6`, `content_loc7`, `content_loc8`, `content_loc9`, `content_loc10`, `sound`, `type`, `language`, `emote`, `comment`) VALUES
 	(33293, -1603308, 'Time for a new game! My old toys will fight my new toys!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 15732, 1, 0, 0, 'XT002 SAY_SUMMON'),

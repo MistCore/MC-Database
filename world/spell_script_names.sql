@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,14 +10,14 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.spell_script_names wordt geschreven
+-- Dumping structure for table world.spell_script_names
 CREATE TABLE IF NOT EXISTS `spell_script_names` (
   `spell_id` int(11) NOT NULL,
   `ScriptName` char(64) NOT NULL,
   UNIQUE KEY `spell_id` (`spell_id`,`ScriptName`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.spell_script_names: 1.620 rows
+-- Dumping data for table world.spell_script_names: 1.620 rows
 /*!40000 ALTER TABLE `spell_script_names` DISABLE KEYS */;
 INSERT IGNORE INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
 	(-55428, 'spell_gen_lifeblood'),

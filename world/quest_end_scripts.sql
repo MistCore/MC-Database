@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.quest_end_scripts wordt geschreven
+-- Dumping structure for table world.quest_end_scripts
 CREATE TABLE IF NOT EXISTS `quest_end_scripts` (
   `id` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `delay` int(10) unsigned NOT NULL DEFAULT '0',
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `quest_end_scripts` (
   `o` float NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.quest_end_scripts: 262 rows
+-- Dumping data for table world.quest_end_scripts: 262 rows
 /*!40000 ALTER TABLE `quest_end_scripts` DISABLE KEYS */;
 INSERT IGNORE INTO `quest_end_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `dataint`, `x`, `y`, `z`, `o`) VALUES
 	(3364, 8, 0, 0, 0, 2000000046, 0, 0, 0, 0),

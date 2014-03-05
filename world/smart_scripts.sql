@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.smart_scripts wordt geschreven
+-- Dumping structure for table world.smart_scripts
 CREATE TABLE IF NOT EXISTS `smart_scripts` (
   `entryorguid` int(11) NOT NULL,
   `source_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `smart_scripts` (
   PRIMARY KEY (`entryorguid`,`source_type`,`id`,`link`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED;
 
--- Dumpen data van tabel world.smart_scripts: 31.757 rows
+-- Dumping data for table world.smart_scripts: 31.757 rows
 /*!40000 ALTER TABLE `smart_scripts` DISABLE KEYS */;
 INSERT IGNORE INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES
 	(30228, 0, 0, 0, 11, 0, 100, 0, 0, 0, 0, 0, 75, 56682, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 'Apply aura to self on player entry'),

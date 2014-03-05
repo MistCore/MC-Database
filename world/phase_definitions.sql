@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.phase_definitions wordt geschreven
+-- Dumping structure for table world.phase_definitions
 CREATE TABLE IF NOT EXISTS `phase_definitions` (
   `zoneId` mediumint(7) unsigned NOT NULL DEFAULT '0',
   `entry` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `phase_definitions` (
   PRIMARY KEY (`zoneId`,`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.phase_definitions: 14 rows
+-- Dumping data for table world.phase_definitions: 14 rows
 /*!40000 ALTER TABLE `phase_definitions` DISABLE KEYS */;
 INSERT IGNORE INTO `phase_definitions` (`zoneId`, `entry`, `phasemask`, `phaseId`, `terrainswapmap`, `flags`, `comment`) VALUES
 	(1519, 1, 129, 0, 0, 0, 'Stormwind: [A] Heros Call: Vashj\'ir'),

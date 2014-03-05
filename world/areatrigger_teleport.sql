@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.areatrigger_teleport wordt geschreven
+-- Dumping structure for table world.areatrigger_teleport
 CREATE TABLE IF NOT EXISTS `areatrigger_teleport` (
   `id` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Identifier',
   `name` text,
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_teleport` (
   FULLTEXT KEY `name` (`name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Trigger System';
 
--- Dumpen data van tabel world.areatrigger_teleport: 292 rows
+-- Dumping data for table world.areatrigger_teleport: 292 rows
 /*!40000 ALTER TABLE `areatrigger_teleport` DISABLE KEYS */;
 INSERT IGNORE INTO `areatrigger_teleport` (`id`, `name`, `target_map`, `target_position_x`, `target_position_y`, `target_position_z`, `target_orientation`) VALUES
 	(45, 'Scarlet Monastery - Graveyard (Entrance)', 189, 1688.99, 1053.48, 18.6775, 0.00117),

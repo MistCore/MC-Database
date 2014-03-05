@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.game_weather wordt geschreven
+-- Dumping structure for table world.game_weather
 CREATE TABLE IF NOT EXISTS `game_weather` (
   `zone` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `spring_rain_chance` tinyint(3) unsigned NOT NULL DEFAULT '25',
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `game_weather` (
   PRIMARY KEY (`zone`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Weather System';
 
--- Dumpen data van tabel world.game_weather: 40 rows
+-- Dumping data for table world.game_weather: 40 rows
 /*!40000 ALTER TABLE `game_weather` DISABLE KEYS */;
 INSERT IGNORE INTO `game_weather` (`zone`, `spring_rain_chance`, `spring_snow_chance`, `spring_storm_chance`, `summer_rain_chance`, `summer_snow_chance`, `summer_storm_chance`, `fall_rain_chance`, `fall_snow_chance`, `fall_storm_chance`, `winter_rain_chance`, `winter_snow_chance`, `winter_storm_chance`, `ScriptName`) VALUES
 	(3, 0, 0, 20, 0, 0, 20, 0, 0, 20, 0, 0, 15, ''),

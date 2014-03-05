@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.creature_model_info wordt geschreven
+-- Dumping structure for table world.creature_model_info
 CREATE TABLE IF NOT EXISTS `creature_model_info` (
   `modelid` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `bounding_radius` float NOT NULL DEFAULT '0',
@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `creature_model_info` (
   PRIMARY KEY (`modelid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Creature System (Model related info)';
 
--- Dumpen data van tabel world.creature_model_info: 36.856 rows
+-- Dumping data for table world.creature_model_info: 36.856 rows
 /*!40000 ALTER TABLE `creature_model_info` DISABLE KEYS */;
 INSERT IGNORE INTO `creature_model_info` (`modelid`, `bounding_radius`, `combat_reach`, `gender`, `modelid_other_gender`) VALUES
 	(4, 2, 3, 2, 0),

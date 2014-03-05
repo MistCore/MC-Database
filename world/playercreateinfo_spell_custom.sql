@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.playercreateinfo_spell_custom wordt geschreven
+-- Dumping structure for table world.playercreateinfo_spell_custom
 CREATE TABLE IF NOT EXISTS `playercreateinfo_spell_custom` (
   `race` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `class` tinyint(3) unsigned NOT NULL DEFAULT '0',
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `playercreateinfo_spell_custom` (
   PRIMARY KEY (`race`,`class`,`Spell`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.playercreateinfo_spell_custom: 4.223 rows
+-- Dumping data for table world.playercreateinfo_spell_custom: 4.223 rows
 /*!40000 ALTER TABLE `playercreateinfo_spell_custom` DISABLE KEYS */;
 INSERT IGNORE INTO `playercreateinfo_spell_custom` (`race`, `class`, `Spell`, `Note`) VALUES
 	(1, 1, 78, 'Heroic Strike'),

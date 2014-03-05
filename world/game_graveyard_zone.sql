@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.game_graveyard_zone wordt geschreven
+-- Dumping structure for table world.game_graveyard_zone
 CREATE TABLE IF NOT EXISTS `game_graveyard_zone` (
   `id` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `ghost_zone` mediumint(8) unsigned NOT NULL DEFAULT '0',
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `game_graveyard_zone` (
   PRIMARY KEY (`id`,`ghost_zone`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Trigger System';
 
--- Dumpen data van tabel world.game_graveyard_zone: 1.271 rows
+-- Dumping data for table world.game_graveyard_zone: 1.271 rows
 /*!40000 ALTER TABLE `game_graveyard_zone` DISABLE KEYS */;
 INSERT IGNORE INTO `game_graveyard_zone` (`id`, `ghost_zone`, `faction`) VALUES
 	(94, 6454, 67),

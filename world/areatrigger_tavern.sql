@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,14 +10,14 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.areatrigger_tavern wordt geschreven
+-- Dumping structure for table world.areatrigger_tavern
 CREATE TABLE IF NOT EXISTS `areatrigger_tavern` (
   `id` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Identifier',
   `name` text,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Trigger System';
 
--- Dumpen data van tabel world.areatrigger_tavern: 186 rows
+-- Dumping data for table world.areatrigger_tavern: 186 rows
 /*!40000 ALTER TABLE `areatrigger_tavern` DISABLE KEYS */;
 INSERT IGNORE INTO `areatrigger_tavern` (`id`, `name`) VALUES
 	(71, 'Westfall - Sentinel Hill Inn'),

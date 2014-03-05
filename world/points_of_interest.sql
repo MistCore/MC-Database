@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.points_of_interest wordt geschreven
+-- Dumping structure for table world.points_of_interest
 CREATE TABLE IF NOT EXISTS `points_of_interest` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `x` float NOT NULL DEFAULT '0',
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `points_of_interest` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.points_of_interest: 499 rows
+-- Dumping data for table world.points_of_interest: 499 rows
 /*!40000 ALTER TABLE `points_of_interest` DISABLE KEYS */;
 INSERT IGNORE INTO `points_of_interest` (`entry`, `x`, `y`, `icon`, `flags`, `data`, `icon_name`) VALUES
 	(1, -9459, 42.0805, 7, 99, 0, 'Lion\'s Pride Inn'),

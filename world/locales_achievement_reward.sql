@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.locales_achievement_reward wordt geschreven
+-- Dumping structure for table world.locales_achievement_reward
 CREATE TABLE IF NOT EXISTS `locales_achievement_reward` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `subject_loc1` varchar(100) NOT NULL DEFAULT '',
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `locales_achievement_reward` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.locales_achievement_reward: 30 rows
+-- Dumping data for table world.locales_achievement_reward: 30 rows
 /*!40000 ALTER TABLE `locales_achievement_reward` DISABLE KEYS */;
 INSERT IGNORE INTO `locales_achievement_reward` (`entry`, `subject_loc1`, `subject_loc2`, `subject_loc3`, `subject_loc4`, `subject_loc5`, `subject_loc6`, `subject_loc7`, `subject_loc8`, `subject_loc9`, `subject_loc10`, `text_loc1`, `text_loc2`, `text_loc3`, `text_loc4`, `text_loc5`, `text_loc6`, `text_loc7`, `text_loc8`, `text_loc9`, `text_loc10`) VALUES
 	(45, '', '', '', '', '', '', '', 'Исследователь - твое второе имя!', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Вот это да!$b$bА я то думал, что уже все обошел в этой обледеневшей дыре! Но старому-то дворфу вроде меня сразу видно, у кого глаза горят от жажды приключений!$b$bНоси эту накидку с гордостью. Пусть твои друзья знают, кто всегда сможет повести их за собой!$b$bНе сворачивай с выбранного пути!$b$b-Бранн Бронзобород', NULL, NULL),

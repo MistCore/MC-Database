@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.script_waypoint wordt geschreven
+-- Dumping structure for table world.script_waypoint
 CREATE TABLE IF NOT EXISTS `script_waypoint` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'creature_template entry',
   `pointid` mediumint(8) unsigned NOT NULL DEFAULT '0',
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `script_waypoint` (
   PRIMARY KEY (`entry`,`pointid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Script Creature waypoints';
 
--- Dumpen data van tabel world.script_waypoint: 2.201 rows
+-- Dumping data for table world.script_waypoint: 2.201 rows
 /*!40000 ALTER TABLE `script_waypoint` DISABLE KEYS */;
 INSERT IGNORE INTO `script_waypoint` (`entry`, `pointid`, `location_x`, `location_y`, `location_z`, `waittime`, `point_comment`) VALUES
 	(26170, 5, 3721.24, 3561.95, 477.44, 0, ''),

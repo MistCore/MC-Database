@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.creature_onkill_reputation wordt geschreven
+-- Dumping structure for table world.creature_onkill_reputation
 CREATE TABLE IF NOT EXISTS `creature_onkill_reputation` (
   `creature_id` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Creature Identifier',
   `RewOnKillRepFaction1` smallint(6) NOT NULL DEFAULT '0',
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `creature_onkill_reputation` (
   PRIMARY KEY (`creature_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Creature OnKill Reputation gain';
 
--- Dumpen data van tabel world.creature_onkill_reputation: 2.026 rows
+-- Dumping data for table world.creature_onkill_reputation: 2.026 rows
 /*!40000 ALTER TABLE `creature_onkill_reputation` DISABLE KEYS */;
 INSERT IGNORE INTO `creature_onkill_reputation` (`creature_id`, `RewOnKillRepFaction1`, `RewOnKillRepFaction2`, `MaxStanding1`, `IsTeamAward1`, `RewOnKillRepValue1`, `MaxStanding2`, `IsTeamAward2`, `RewOnKillRepValue2`, `TeamDependent`) VALUES
 	(674, 21, 0, 5, 0, 25, 0, 0, 0, 0),

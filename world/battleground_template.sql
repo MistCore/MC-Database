@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.battleground_template wordt geschreven
+-- Dumping structure for table world.battleground_template
 CREATE TABLE IF NOT EXISTS `battleground_template` (
   `id` mediumint(8) unsigned NOT NULL,
   `MinPlayersPerTeam` smallint(5) unsigned NOT NULL DEFAULT '0',
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `battleground_template` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.battleground_template: 17 rows
+-- Dumping data for table world.battleground_template: 17 rows
 /*!40000 ALTER TABLE `battleground_template` DISABLE KEYS */;
 INSERT IGNORE INTO `battleground_template` (`id`, `MinPlayersPerTeam`, `MaxPlayersPerTeam`, `MinLvl`, `MaxLvl`, `AllianceStartLoc`, `AllianceStartO`, `HordeStartLoc`, `HordeStartO`, `StartMaxDist`, `Weight`, `holiday`, `ScriptName`, `Comment`) VALUES
 	(1, 10, 40, 45, 90, 611, 3.16312, 610, 0.715504, 100, 4, 283, '', 'Alterac Valley'),

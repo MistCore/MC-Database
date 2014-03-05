@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.transports wordt geschreven
+-- Dumping structure for table world.transports
 CREATE TABLE IF NOT EXISTS `transports` (
   `guid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `transports` (
   UNIQUE KEY `idx_entry` (`entry`)
 ) ENGINE=MyISAM AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Transports';
 
--- Dumpen data van tabel world.transports: 27 rows
+-- Dumping data for table world.transports: 27 rows
 /*!40000 ALTER TABLE `transports` DISABLE KEYS */;
 INSERT IGNORE INTO `transports` (`guid`, `entry`, `name`, `period`, `ScriptName`) VALUES
 	(1, 176495, 'Undercity, Tirisfal Glades and Grom\'gol Base Camp, Stranglethorn Vale ("The Purple Princess")', 319210, ''),

@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.trinity_string wordt geschreven
+-- Dumping structure for table world.trinity_string
 CREATE TABLE IF NOT EXISTS `trinity_string` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `content_default` text NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `trinity_string` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.trinity_string: 1.081 rows
+-- Dumping data for table world.trinity_string: 1.081 rows
 /*!40000 ALTER TABLE `trinity_string` DISABLE KEYS */;
 INSERT IGNORE INTO `trinity_string` (`entry`, `content_default`, `content_loc1`, `content_loc2`, `content_loc3`, `content_loc4`, `content_loc5`, `content_loc6`, `content_loc7`, `content_loc8`, `content_loc9`, `content_loc10`) VALUES
 	(1, 'You should select a character or a creature.', NULL, 'Vous devez sélectionner un personnage ou une créature.', 'Ihr solltet einen Charakter oder eine Kreatur auswählen.', NULL, NULL, NULL, NULL, 'Вы должны выбрать персонажа или существо.', NULL, NULL),

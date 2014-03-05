@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.skill_discovery_template wordt geschreven
+-- Dumping structure for table world.skill_discovery_template
 CREATE TABLE IF NOT EXISTS `skill_discovery_template` (
   `spellId` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'SpellId of the discoverable spell',
   `reqSpell` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'spell requirement',
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `skill_discovery_template` (
   PRIMARY KEY (`spellId`,`reqSpell`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Skill Discovery System';
 
--- Dumpen data van tabel world.skill_discovery_template: 720 rows
+-- Dumping data for table world.skill_discovery_template: 720 rows
 /*!40000 ALTER TABLE `skill_discovery_template` DISABLE KEYS */;
 INSERT IGNORE INTO `skill_discovery_template` (`spellId`, `reqSpell`, `reqSkillValue`, `chance`) VALUES
 	(28590, 0, 0, 0.1),

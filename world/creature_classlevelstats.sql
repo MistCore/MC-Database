@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.creature_classlevelstats wordt geschreven
+-- Dumping structure for table world.creature_classlevelstats
 CREATE TABLE IF NOT EXISTS `creature_classlevelstats` (
   `level` tinyint(4) NOT NULL,
   `class` tinyint(4) NOT NULL,
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `creature_classlevelstats` (
   `basearmor` mediumint(8) unsigned NOT NULL DEFAULT '1'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.creature_classlevelstats: 400 rows
+-- Dumping data for table world.creature_classlevelstats: 400 rows
 /*!40000 ALTER TABLE `creature_classlevelstats` DISABLE KEYS */;
 INSERT IGNORE INTO `creature_classlevelstats` (`level`, `class`, `basehp0`, `basehp1`, `basehp2`, `basehp3`, `basehp4`, `basemana`, `basearmor`) VALUES
 	(1, 1, 84, 84, 84, 84, 1, 0, 8),

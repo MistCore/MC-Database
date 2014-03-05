@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.locales_gameobject wordt geschreven
+-- Dumping structure for table world.locales_gameobject
 CREATE TABLE IF NOT EXISTS `locales_gameobject` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `name_loc1` varchar(100) NOT NULL DEFAULT '',
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `locales_gameobject` (
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.locales_gameobject: 28.324 rows
+-- Dumping data for table world.locales_gameobject: 28.324 rows
 /*!40000 ALTER TABLE `locales_gameobject` DISABLE KEYS */;
 INSERT IGNORE INTO `locales_gameobject` (`entry`, `name_loc1`, `name_loc2`, `name_loc3`, `name_loc4`, `name_loc5`, `name_loc6`, `name_loc7`, `name_loc8`, `name_loc9`, `name_loc10`, `castbarcaption_loc1`, `castbarcaption_loc2`, `castbarcaption_loc3`, `castbarcaption_loc4`, `castbarcaption_loc5`, `castbarcaption_loc6`, `castbarcaption_loc7`, `castbarcaption_loc8`, `castbarcaption_loc9`, `castbarcaption_loc10`) VALUES
 	(31, '', '', '', '', '', '', '', 'Статуя старого льва', '', '', '', '', '', '', '', '', '', '', '', ''),

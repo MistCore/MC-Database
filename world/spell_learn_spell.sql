@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.spell_learn_spell wordt geschreven
+-- Dumping structure for table world.spell_learn_spell
 CREATE TABLE IF NOT EXISTS `spell_learn_spell` (
   `entry` smallint(5) unsigned NOT NULL DEFAULT '0',
   `SpellID` smallint(5) unsigned NOT NULL DEFAULT '0',
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `spell_learn_spell` (
   PRIMARY KEY (`entry`,`SpellID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Item System';
 
--- Dumpen data van tabel world.spell_learn_spell: 18 rows
+-- Dumping data for table world.spell_learn_spell: 18 rows
 /*!40000 ALTER TABLE `spell_learn_spell` DISABLE KEYS */;
 INSERT IGNORE INTO `spell_learn_spell` (`entry`, `SpellID`, `Active`) VALUES
 	(53428, 53341, 1),

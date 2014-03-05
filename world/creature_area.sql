@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.creature_area wordt geschreven
+-- Dumping structure for table world.creature_area
 CREATE TABLE IF NOT EXISTS `creature_area` (
   `guid` int(11) unsigned NOT NULL,
   `zone` int(11) NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `creature_area` (
   PRIMARY KEY (`guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumpen data van tabel world.creature_area: ~43.002 rows (ongeveer)
+-- Dumping data for table world.creature_area: ~43.472 rows (approximately)
 /*!40000 ALTER TABLE `creature_area` DISABLE KEYS */;
 INSERT IGNORE INTO `creature_area` (`guid`, `zone`, `area`) VALUES
 	(6, 1, 1),

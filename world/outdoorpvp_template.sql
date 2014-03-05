@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.outdoorpvp_template wordt geschreven
+-- Dumping structure for table world.outdoorpvp_template
 CREATE TABLE IF NOT EXISTS `outdoorpvp_template` (
   `TypeId` tinyint(3) unsigned NOT NULL,
   `ScriptName` char(64) NOT NULL DEFAULT '',
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `outdoorpvp_template` (
   PRIMARY KEY (`TypeId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='OutdoorPvP Templates';
 
--- Dumpen data van tabel world.outdoorpvp_template: 5 rows
+-- Dumping data for table world.outdoorpvp_template: 5 rows
 /*!40000 ALTER TABLE `outdoorpvp_template` DISABLE KEYS */;
 INSERT IGNORE INTO `outdoorpvp_template` (`TypeId`, `ScriptName`, `comment`) VALUES
 	(1, 'outdoorpvp_hp', 'Hellfire Peninsula'),

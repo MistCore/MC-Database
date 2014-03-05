@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,14 +10,14 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.spell_group_stack_rules wordt geschreven
+-- Dumping structure for table world.spell_group_stack_rules
 CREATE TABLE IF NOT EXISTS `spell_group_stack_rules` (
   `group_id` int(11) unsigned NOT NULL DEFAULT '0',
   `stack_rule` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`group_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.spell_group_stack_rules: 43 rows
+-- Dumping data for table world.spell_group_stack_rules: 43 rows
 /*!40000 ALTER TABLE `spell_group_stack_rules` DISABLE KEYS */;
 INSERT IGNORE INTO `spell_group_stack_rules` (`group_id`, `stack_rule`) VALUES
 	(1, 1),

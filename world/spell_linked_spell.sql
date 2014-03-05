@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.spell_linked_spell wordt geschreven
+-- Dumping structure for table world.spell_linked_spell
 CREATE TABLE IF NOT EXISTS `spell_linked_spell` (
   `spell_trigger` mediumint(8) NOT NULL,
   `spell_effect` mediumint(8) NOT NULL DEFAULT '0',
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `spell_linked_spell` (
   UNIQUE KEY `trigger_effect_type` (`spell_trigger`,`spell_effect`,`type`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Spell System';
 
--- Dumpen data van tabel world.spell_linked_spell: 282 rows
+-- Dumping data for table world.spell_linked_spell: 282 rows
 /*!40000 ALTER TABLE `spell_linked_spell` DISABLE KEYS */;
 INSERT IGNORE INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comment`) VALUES
 	(61122, 55038, 0, 'Contact Brann'),

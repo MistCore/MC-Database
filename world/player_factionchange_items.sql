@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.player_factionchange_items wordt geschreven
+-- Dumping structure for table world.player_factionchange_items
 CREATE TABLE IF NOT EXISTS `player_factionchange_items` (
   `race_A` int(10) unsigned NOT NULL,
   `alliance_id` int(10) unsigned NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `player_factionchange_items` (
   PRIMARY KEY (`alliance_id`,`horde_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.player_factionchange_items: 763 rows
+-- Dumping data for table world.player_factionchange_items: 763 rows
 /*!40000 ALTER TABLE `player_factionchange_items` DISABLE KEYS */;
 INSERT IGNORE INTO `player_factionchange_items` (`race_A`, `alliance_id`, `commentA`, `race_H`, `horde_id`, `commentH`) VALUES
 	(0, 15196, 'Private\'s Tabard', 0, 15197, 'Scout\'s Tabard'),

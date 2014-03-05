@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.locales_creature_text wordt geschreven
+-- Dumping structure for table world.locales_creature_text
 CREATE TABLE IF NOT EXISTS `locales_creature_text` (
   `entry` int(10) unsigned NOT NULL,
   `textGroup` tinyint(3) unsigned NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `locales_creature_text` (
   PRIMARY KEY (`entry`,`textGroup`,`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.locales_creature_text: 755 rows
+-- Dumping data for table world.locales_creature_text: 755 rows
 /*!40000 ALTER TABLE `locales_creature_text` DISABLE KEYS */;
 INSERT IGNORE INTO `locales_creature_text` (`entry`, `textGroup`, `id`, `text_loc1`, `text_loc2`, `text_loc3`, `text_loc4`, `text_loc5`, `text_loc6`, `text_loc7`, `text_loc8`, `text_loc9`, `text_loc10`) VALUES
 	(60491, 0, 4, NULL, 'Ils sont éteints !', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),

@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server versie:                5.5.9-log - MySQL Community Server (GPL)
+-- Server version:               5.5.9-log - MySQL Community Server (GPL)
 -- Server OS:                    Win32
--- HeidiSQL Versie:              8.1.0.4545
+-- HeidiSQL Version:             8.1.0.4545
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -10,7 +10,7 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Structuur van  tabel world.lfg_dungeon_rewards wordt geschreven
+-- Dumping structure for table world.lfg_dungeon_rewards
 CREATE TABLE IF NOT EXISTS `lfg_dungeon_rewards` (
   `dungeonId` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Dungeon entry from dbc',
   `maxLevel` tinyint(3) unsigned NOT NULL DEFAULT '0' COMMENT 'Max level at which this reward is rewarded',
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `lfg_dungeon_rewards` (
   PRIMARY KEY (`dungeonId`,`maxLevel`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel world.lfg_dungeon_rewards: 26 rows
+-- Dumping data for table world.lfg_dungeon_rewards: 26 rows
 /*!40000 ALTER TABLE `lfg_dungeon_rewards` DISABLE KEYS */;
 INSERT IGNORE INTO `lfg_dungeon_rewards` (`dungeonId`, `maxLevel`, `firstQuestId`, `firstMoneyVar`, `firstXPVar`, `otherQuestId`, `otherMoneyVar`, `otherXPVar`) VALUES
 	(258, 15, 24881, 0, 0, 24889, 0, 0),
